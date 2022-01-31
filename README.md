@@ -240,14 +240,4 @@ Esse teste deve se chamar `test_sort_by_criteria` e garantir que a função func
 - A ordenação para `min_salary` deve ser crescente, mas para `max_salary` ou `date_posted` devem ser decrescentes.
 - Os empregos que não apresentarem um valor válido no campo escolhido para ordenação devem aparecer no final da lista.
 
-> 📌 O **teste da Trybe** espera que o **seu teste** falhe em alguns casos. Nesse caso, o teste terá a saída `XFAIL` (ao invés de `PASS` ou `FAIL`), e isso significa que o requisito foi atendido ✔️
-
-**🤖 O que será verificado pelo avaliador:**
-
-- O teste rejeita implementações que aceitam critérios não especificados.
-- O teste rejeita implementações que não ordenam corretamente.
-- O teste rejeita implementações que não ordenam em ordem crescente quando o critério é `min_salary`.
-- O teste aprova implementações corretas.
-
-
 ---
